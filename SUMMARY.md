@@ -1,6 +1,5 @@
 # Summary
 
-* [前言](README.md)
 * [程序的结构](Program.md)
     * [Loop](Loop.md)
     * [Button](Button.md)
