@@ -1,13 +1,16 @@
 # IMU
-_____________________________
+__________________________
 #### 功能说明
->M5GO提供了三个面板按钮（A,B,C），通过Button Block，我们可以使用这三个按钮去实现控制
-![IMU](/image/Program_structure/Button.png)
-* __Speaker.beep__
-PASS
-* __Speaker.volume__
-PASS
+>IMU Block是M5GO的陀螺仪姿态数据采集，它会分别采集X，Y,Z三个坐标轴的坐标数据，通过数据可以编程当M5GO处于不同姿态时，实现不同的功能
+![IMU](/image/Hardwares/IMU.png)
+>* __Get X__
+获取陀螺仪的X坐标数据
+>* __Get Y__
+获取陀螺仪的Y坐标数据
+>* __Get Z__
+获取陀螺仪的Z坐标数据
+
 
 #### 使用方法
->将按下按钮后需要运行的程序，放到Button Block中，修改对应的按键位
-![Button_Connect](/image/Program_structure/Button_connect.gif)
+>将所需的Speaker Block添加到程序中，修改属性或参数，使M5GO发出不同的声音
+![IMU_user](/image/Hardwares/IMU_user.gif)
