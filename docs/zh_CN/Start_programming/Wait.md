@@ -1,11 +1,11 @@
 # Wait
 _____________________________
 #### 功能说明
->M5GO提供了三个面板按钮（A,B,C），通过Button Block，我们可以使用这三个按钮去实现控制
+>Wait是Timer选项中的一个延时Block，可以设定Wait执行的时间，并根据需求添加到程序中
 ![Wait](/image/Program_structure/Wait.png)
 >* __Wait__
-PASS
+修改数据框中的数字，更改Wait延时的时间
 
 #### 使用方法
->将按下按钮后需要运行的程序，放到Button Block中，修改对应的按键位
-![Button_Connect](/image/Program_structure/Button_connect.gif)
+>将Wait Block添加到需要延时的程序之间并设定时间，在程序执行到它时，就会发挥延时作用
+![Wait_user](/image/Program_structure/Wait_user.gif)    
