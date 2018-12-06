@@ -1,3 +1,0 @@
-# Speaker
-
-texxxxx
