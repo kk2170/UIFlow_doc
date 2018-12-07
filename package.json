@@ -1,0 +1,26 @@
+{
+  "name": "M5GO_doc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "cn": "gitbook build ./M5GO_CN_doc ./docs/cn",
+    "en": "gitbook build ./M5GO_EN_doc ./docs/en",
+    "jp": "gitbook build ./M5GO_JP_doc ./docs/jp",
+    "start": "gitbook serve ./M5GO_CN_doc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gitshaoxiang/M5GO_doc.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Gitshaoxiang/M5GO_doc/issues"
+  },
+  "homepage": "https://github.com/Gitshaoxiang/M5GO_doc#readme"
+}
