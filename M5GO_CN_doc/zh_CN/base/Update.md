@@ -2,7 +2,7 @@
 _________________________________
 ### For Window
 * __下载驱动程序__
->访问[m5stack.com](http://m5stack.com/)下载与自己操作系统对应的CP210X驱动程序
+>访问[m5stack.com](http://m5stack.com/)下载与自己操作系统对应的[CP210X驱动程序](http://m5stack.com/download/Driver/CP210x_VCP_Windows.zip)
 ![Download](/image/base/CP210X_DL.gif )
 * __安装驱动程序__
 > 解压压缩包后，选择对应操作系统位数的安装包进行安装
