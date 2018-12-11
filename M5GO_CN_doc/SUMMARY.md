@@ -1,7 +1,7 @@
 # Summary
 
-* [UIFlow](README.md)
-* [基础学习](zh_CN//base/base.md)
+* [前言](README.md)
+* [UIFlow](zh_CN//base/base.md)
     * [更新固件](zh_CN/base/Update.md)
     * [配置WIFI](zh_CN//base/Setting_WIFI.md)
     * [API Key](zh_CN/base/setting_APIkey.md)
@@ -21,8 +21,6 @@
     * [image图片显示](zh_CN/Display/image.md)
     * [Graphic绘图](zh_CN/Display/Graphic.md)
 * [引入变量](zh_CN/Variables/Variables.md)
-    * [创建变量](zh_CN/Variables/make_Variables.md)
-    * [使用变量](zh_CN/Variables/user_Variables.md)
 * [数据运算](zh_CN/Operation/Operation.md)
     * [基本运算](zh_CN/Operation/Math.md)
     * [随机数](zh_CN/Operation/List.md)
@@ -34,6 +32,5 @@
     * [条件循环](zh_CN/Loops/repeatA.md)
     * [数据迭代](zh_CN/Loops/repeatB.md)
 * [函数功能](zh_CN/Functions/Functions.md)
-    * [Functions](zh_CN/Functions/Functions_user.md)
 * [远程控制](zh_CN/Remote/Remote.md)
 
