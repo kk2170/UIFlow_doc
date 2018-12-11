@@ -9,10 +9,10 @@ _________________________________
 ![install](/image/base/CP210X_install.gif )
 —————————————————————————————————
 * __下载M5Burner__
->访问[flow.m5stack.com](http://flow.m5stack.com/)下载最新的固件包和M5Burner烧录工具
+>访问[flow.m5stack.com](http://flow.m5stack.com/)下载最新的固件包和[M5Burner烧录工具](http://flow.m5stack.com/download/M5Burner-flow-only.zip)
 ![Download](/image/base/Burner_DL.gif )
 * __开始烧录__
-> 解压压缩包后，双击打开Burner烧录工具，选择对应的COM口，波特率（烧录的速率建议961200），以及你想更新的固件版本
+> 解压压缩包后，双击打开Burner烧录工具，选择对应的COM口，波特率（烧录的速率建议921600），以及你想更新的固件版本
 ![User](/image/base/Burner_user.gif )
 
 ### For Mac

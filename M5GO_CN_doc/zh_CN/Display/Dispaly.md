@@ -1,3 +1,3 @@
 # 图像显示
 ______________________________________
-![F3](/image/Display/Emoji.jpg))
+![F3](/image/Display/Display.jpg)

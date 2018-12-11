@@ -1,7 +1,6 @@
 # Summary
 
 * [UIFlow](README.md)
-* [基础学习](JA//base/base.md)
     * [更新固件](JA/base/Update.md)
     * [配置WIFI](JA//base/Setting_WIFI.md)
     * [API Key](JA/base/setting_APIkey.md)
