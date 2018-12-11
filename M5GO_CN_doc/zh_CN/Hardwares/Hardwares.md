@@ -1,3 +1,4 @@
 # Hardwares
 ____________________________________
-![Hardwares](/image/Hardwares/Hardwares.jpg)
+![Hardwares](/image/Poster/Hardwares.JPG)
+
