@@ -1,3 +1,3 @@
 # Hardwares
 ____________________________________
-![Hardwares](../image/Hardwares/Hardwares.jpg)
+![Hardwares](/image/Hardwares/Hardwares.jpg)
