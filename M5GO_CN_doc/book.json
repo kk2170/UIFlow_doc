@@ -13,7 +13,7 @@
     "plugins" :
     [
         "splitter",
-        "toggle-chapters",
+        "expandable-chapters",
         "search-pro"
     ]
 }

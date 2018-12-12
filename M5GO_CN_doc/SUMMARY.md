@@ -1,7 +1,6 @@
 # Summary
 
-* [前言](README.md)
-* [UIFlow](zh_CN//base/base.md)
+* [UIFlow](README.md)
     * [更新固件](zh_CN/base/Update.md)
     * [配置WIFI](zh_CN//base/Setting_WIFI.md)
     * [API Key](zh_CN/base/setting_APIkey.md)
@@ -23,7 +22,8 @@
 * [引入变量](zh_CN/Variables/Variables.md)
 * [数据运算](zh_CN/Operation/Operation.md)
     * [基本运算](zh_CN/Operation/Math.md)
-    * [随机数](zh_CN/Operation/List.md)
+    * [随机数](zh_CN/Operation/Random.md)
+    * [引入数组](zh_CN/Operation/List.md)
 * [逻辑判断](zh_CN/Logic/Logic.md)
     * [if判断](zh_CN/Logic/if.md)
     * [逻辑关系式](zh_CN/Logic/logic_partA.md)

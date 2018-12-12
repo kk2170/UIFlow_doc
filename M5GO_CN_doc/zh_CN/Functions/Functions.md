@@ -6,6 +6,7 @@ ________________________
 
 ![Functions](/image/Functions/Functions.JPG)
 
+
 #### 创建函数
 >点击Functions选项，拖动函数体到编程区域，并修改函数名称，往函数里放置程序
 
