@@ -2,7 +2,7 @@
 __________________________
 #### 功能说明
 >通过手机或电脑等设备进行远程控制M5GO
-![Remote](/image/Remote/Remote.jpg)
+>![Remote](/image/Remote/Remote.jpg)
 >* __Remote QRcode__
 生成一个可以访问控制页面的二维码，并显示在屏幕上
 
@@ -24,4 +24,4 @@ __________________________
 #### 控制页面
 >扫描M5GO屏幕上的二维码，或在UIFlow页面右上角的二维码选项下复制链接，访问控制页面
 
-![Remote_Phone](/image/Remote/Remote_Phone.png)
+>![Remote_Phone](/image/Remote/Remote_Phone.png)
