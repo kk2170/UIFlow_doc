@@ -34,10 +34,12 @@
 * [函数功能](zh_CN/Functions/Functions.md)
 * [远程控制](zh_CN/Remote/Remote.md)
 * [Units](zh_CN/Units/Units.md)
-    * [Input](zh_CN/Units/Input.md)
+    * Input
         * [ENV](zh_CN/Units/ENV.md)
         * [Light](zh_CN/Units/Light.md)
-    * [Output](zh_CN/Units/Output.md)
+        * [PIR](zh_CN/Units/PIR.md)
+        * [Earth](zh_CN/Units/Earth.md)
+    * Output
         * [Neopixel](zh_CN/Units/Neopixel.md)
         * [Servo](zh_CN/Units/Servo.md)
 

@@ -4,7 +4,7 @@ __________________________
 Unit是M5体系提供的功能拓展模块，Unit是为了实现更多复杂的功能而提供的硬件基础
 ![Units](/image/Units/Units.jpg)
 #### 连接Unit模块
->在使用Unit功能编程前，需要将Unit连接到与其对应的端口
+>__在使用Unit功能编程前，需要将Unit连接到与其对应的端口__
 >![Units_cable](/image/Units/Unit.jpg) 
 
 #### 添加Unit Block
@@ -24,12 +24,10 @@ _________________________________
 #### 输入型
 >输入型的Unit主要以采集数据的形式，将外界的一些环境信息以数据的形式传输给M5GO
 >我们可以通过对这些数据的运算实现控制功能
->![Units_input](/image/Units/Units_input.jpg)  
 
 #### 输出型
 >输出型的Unit主要以驱动的形式，以M5GO为控制核心，驱动外部连接的一些硬件，例如驱动舵机的旋转
 
->![Units_output](/image/Units/Units_output.jpg) 
 
 ## 模拟量与数字量
 所有的Units模块都可以区分为两种类型，输入与输出
