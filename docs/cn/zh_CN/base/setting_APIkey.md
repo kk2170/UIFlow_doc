@@ -5,7 +5,7 @@ ______________________
 >开机后，在主菜单选择编程模式,等待信号指示灯右红变成绿色（这表示M5GO连接网络成功），用平板扫描屏幕上的二维码，或是在电脑浏览器直接访问[flow.m5stack.com](http://flow.m5stack.com/)进入UIFlow编程页面
 
 >![APIKey_user1](/image/base/APIKey_user.png)
-><img src="/image/base/APIKey_user.png" width="500" height="500" />
+><img src="https://raw.githubusercontent.com/Gitshaoxiang/M5GO_doc/master/docs/cn/image/base/APIkey_user.png"/>
 
 #### 填写API Key
 

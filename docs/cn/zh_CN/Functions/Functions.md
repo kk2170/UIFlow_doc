@@ -4,7 +4,7 @@ ________________________
 #### 什么是变量？
 >函数就像是一个包裹，我们可以给函数取一个名字，在函数里放入程序，当函数被调用时，它就运行它包含在内的程序，在有多段程序重复的时候，使用函数可以节省程序的长度，同时使程序更加的简洁明了，同时方便修改
 
->![Functions](/image/Functions/Functions.JPG)
+>![Functions](https://raw.githubusercontent.com/Gitshaoxiang/M5GO_doc/master/docs/cn/image/Functions/Functions.jpg)
 
 
 #### 创建函数
