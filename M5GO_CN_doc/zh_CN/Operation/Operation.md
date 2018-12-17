@@ -1,4 +1,4 @@
 # 数据运算
 ____________________________________
 
-<img src="https://raw.githubusercontent.com/Gitshaoxiang/M5GO_doc/master/docs/cn/image/Poster/Operation.jpg"/>
+<img src="/image/Poster/Operation.jpg"/>
