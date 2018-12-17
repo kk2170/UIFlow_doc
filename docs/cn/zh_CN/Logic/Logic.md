@@ -1,4 +1,4 @@
 # 逻辑判断
 ____________________________________
 
-><img src="/image/Poster/Logic.JPG"/>
+><img src="https://raw.githubusercontent.com/Gitshaoxiang/M5GO_doc/master/docs/cn/image/Poster/Logic.jpg"/>
