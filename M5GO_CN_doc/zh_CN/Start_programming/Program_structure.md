@@ -2,7 +2,7 @@
 ____________________________________
 #### Setup块
 >当打开UIFlow的时候，你会发现最开始就已经有一个Setup块，每个程序都必须有一个Setup块，程序是从Setup块开始运行的，并且只会运行一次，你可以把它看作一个程序的的初始化块
-![Setup](/image/Program_structure/Setup.png)
+>![Setup](/image/Program_structure/Setup.png)
 
 
 #### Loop块

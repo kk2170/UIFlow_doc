@@ -8,12 +8,15 @@
         "sidebar" : 
         {
             "M5stack":"http://m5stack.com/"
+        },
+        "sharing":{
+            "English":"http://m5stack.com/"
         }
      },
     "plugins" :
     [
         "splitter",
-        "expandable-chapters",                                
+        "expandable-chapters",                           
         "search-pro"
     ]
 }

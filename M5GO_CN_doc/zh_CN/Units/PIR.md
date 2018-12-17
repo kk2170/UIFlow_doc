@@ -2,7 +2,10 @@
 __________________________
 #### 功能说明
 >感应人体模块，当感应到人体时，会传输信号“1”给M5GO，默认状态下则传输“0”
-![PIR](/image/Units/PIR.png)
+
+>[购买链接](http://flow.m5stack.com/)
+
+><img src="/image/Units/PIR.jpg" width="500" height="500" />
 
 #### Block
 >![PIR_Block](/image/Units/PIR_Block.jpg)

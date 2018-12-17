@@ -2,7 +2,10 @@
 __________________________
 #### 功能说明
 >Earth是土壤湿度检测模块，在使用时将检测引脚插入土中，Earth就能够采集湿度数据并以模拟量与数字量的形式传输给M5GO
-![Earth](/image/Units/Earth.png)
+
+>[购买链接](http://flow.m5stack.com/)
+
+><img src="/image/Units/Earth.jpg" width="500" height="500" />
 
 #### Block
 >![Earth_Block](/image/Units/Earth_Block.jpg)
@@ -12,5 +15,5 @@ __________________________
 湿度数字量
 
 #### 使用案例
->将采集到的湿度数值通过标签，显示到屏幕上
+>当土壤湿度低于15时，发出声音提示
 ![Earth_user](/image/Units/Earth_user.gif)

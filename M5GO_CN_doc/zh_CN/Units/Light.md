@@ -2,7 +2,11 @@
 __________________________
 #### 功能说明
 >Light是光学检测模块，能够检测环境的光照情况，并以模拟量与数字量两种形式传输数据给M5GO
-![Light](/image/Units/Light.png)
+
+>[购买链接](http://flow.m5stack.com/)
+
+><img src="/image/Units/Light.jpg" width="500" height="500" />
+
 
 #### Block
 >![Light_Block](/image/Units/Light_Block.jpg)
@@ -13,5 +17,5 @@ __________________________
 
 #### 使用方法
 >将采集到的光照数值，进行逻辑判断，如当光照值低于500时点亮RGB bar，当光照值大于500时熄灭RGB bar
-![Light_user](/image/Hardwares/Light_user.gif)
+![Light_user](/image/Units/Light_user.gif)
 

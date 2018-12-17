@@ -1,5 +1,7 @@
 # 更新固件
 _________________________________
+
+><img src="/image/base/windows_logo.png" width="100" height="100" />
 ### For Window
 * __下载驱动程序__
 >访问[m5stack.com](http://m5stack.com/)下载与自己操作系统对应的[CP210X驱动程序](http://m5stack.com/download/Driver/CP210x_VCP_Windows.zip)
