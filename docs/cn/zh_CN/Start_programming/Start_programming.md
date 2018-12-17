@@ -2,4 +2,4 @@
 ___________________________________
 __经过上一章节的学习， 你已经对UIFlow的一些基本操作有了初步认知，接下来让我们开始编程吧！__
 
-><img src="/image/Poster/Hello.jpg"/>
+><img src="/image/Poster/Hello.JPG"/>
