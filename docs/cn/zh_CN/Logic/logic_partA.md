@@ -3,7 +3,7 @@ __________________________
 #### 功能说明
 >逻辑关系式在if判断中经常用作判断条件，运算两侧的数据关系是否正确，最后得出true或false两个值，用作if判断
 
-![LogicA](/image/Logic/logicA.jpg)
+![LogicA](/image/Logic/LogicA.jpg)
 
 
 #### 使用方法
