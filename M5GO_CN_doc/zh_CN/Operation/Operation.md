@@ -1,3 +1,4 @@
 # 数据运算
 ____________________________________
-![Operation](/image/Poster/Operation.JPG)
+
+<img src="https://raw.githubusercontent.com/Gitshaoxiang/M5GO_doc/master/docs/cn/image/Poster/Operation.jpg"/>
