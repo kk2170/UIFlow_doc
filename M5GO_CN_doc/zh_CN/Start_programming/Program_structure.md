@@ -18,4 +18,5 @@ ____________________________________
 #### 程序执行顺序
 >程序是由上往下执行，当程序开始运行，首先进入Setup单次执行初始化程序，然后进入Loop中不断循环主程序
 
-![process](/image/Program_structure/process.png)
+>![process](https://raw.githubusercontent.com/Gitshaoxiang/M5GO_doc/master/docs/cn/image/Program_structure/Process.png)
+><img src="https://raw.githubusercontent.com/Gitshaoxiang/M5GO_doc/master/docs/cn/image/Program_structure/Process.png"/>
