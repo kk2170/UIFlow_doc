@@ -5,7 +5,7 @@ __________________________
 
 >Earth是土壤湿度检测模块，在使用时将检测引脚插入土中，Earth就能够采集湿度数据并以模拟量与数字量的形式传输给M5GO
 
->[购买链接](http://flow.m5stack.com/)
+>[购买链接](https://item.taobao.com/item.htm?spm=a1z10.5-c.w4002-1172588093.54.62f075f4kPMink&id=576995412485)
 
 ><img src="/image/Units/Earth.jpg" width="500" height="500" />
 

@@ -5,7 +5,7 @@ __________________________
 
 >Neopixel是一个可编程控制灯带，设定灯带上的小灯数量后，我们可以控制灯带上任何一个RGB灯
 
->[购买链接](http://flow.m5stack.com/)
+>[购买链接](https://item.taobao.com/item.htm?spm=a1z10.1-c.w4004-1172588101.24.25c04476nImFoD&id=580453719549)
 
 ><img src="/image/Units/Neopixel.jpg" width="500" height="500" />
 

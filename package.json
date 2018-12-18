@@ -10,7 +10,7 @@
     "cn": "gitbook build ./M5GO_CN_doc ./docs/cn",
     "en": "gitbook build ./M5GO_EN_doc ./docs/en",
     "jp": "gitbook build ./M5GO_JP_doc ./docs/jp",
-    "start cn": "gitbook serve ./M5GO_CN_doc"
+    "start": "gitbook serve ./M5GO_CN_doc"
   },
   "repository": {
     "type": "git",

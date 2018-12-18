@@ -1,19 +1,14 @@
 {
-    "title" : "UIFlow Use",
-    "author" : "M5stack",
-
-
-    "links" :
-     {
-        "sidebar" : 
-        {
-            "M5stack":"http://m5stack.com/"
+    "title": "UIFlow Use",
+    "author": "M5stack",
+    "links": {
+        "sidebar": {
+            "M5stack": "http://m5stack.com/"
         }
-     },
-    "plugins" :
-    [
+    },
+    "plugins": [
         "splitter",
-        "toggle-chapters",
+        "expandable-chapters",
         "search-pro"
     ]
 }

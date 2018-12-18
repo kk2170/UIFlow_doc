@@ -5,7 +5,7 @@ __________________________
 
 >Light是光学检测模块，能够检测环境的光照情况，并以模拟量与数字量两种形式传输数据给M5GO
 
->[购买链接](http://flow.m5stack.com/)
+>[购买链接](https://item.taobao.com/item.htm?spm=a1z10.5-c.w4002-1172588093.39.62f075f4kPMink&id=577601079444)
 
 ><img src="/image/Units/Light.jpg" width="500" height="500" />
 

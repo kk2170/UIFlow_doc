@@ -1,16 +1,23 @@
 # if判断
 __________________________
+
 #### 功能说明
->if Block是M5GO的陀螺仪姿态数据采集，它会分别采集X，Y,Z三个坐标轴的坐标数据，通过数据可以编程当M5GO处于不同姿态时，实现不同的功能
-![IMU](/image/Hardwares/IMU.png)
->* __Get X__
-获取陀螺仪的X坐标数据
->* __Get Y__
-获取陀螺仪的Y坐标数据
->* __Get Z__
-获取陀螺仪的Z坐标数据
+
+>if判断Block，会根据判断条件是否成立，决定是否运行程序，或是根据情况选择运行不同的程序
+
+>![IF](/image/Logic/IF.jpg)
+
+>* __if__
+判断条件是否成立，当成立时执行Do右侧程序
+
+>* __if else__
+判断条件是否成立，当成立时执行Do，不成立时执行else
+
+>* __true__
+布尔值可以代替判断条件的式子，设置为true为成立，设置false为不成立
 
 
 #### 使用方法
->将所需的Speaker Block添加到程序中，修改属性或参数，使M5GO发出不同的声音
-![IMU_user](/image/Hardwares/IMU_user.gif)
+
+>将if Block添加到程序中，添加判断条件，添加条件成立，与不成立时的执行程序,例：当M5GO站立时点亮RGB bar
+>![IF_user](/image/Logic/IF_user.gif)
