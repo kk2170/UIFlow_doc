@@ -1,0 +1,890 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>API Key設定 · UIFlow Use</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        <meta name="author" content="M5stack">
+        
+        
+    
+    <link rel="stylesheet" href="../../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-splitter/splitter.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-expandable-chapters/expandable-chapters.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-search-pro/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="UIFlow.html" />
+    
+    
+    <link rel="prev" href="Setting_WIFI.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+    
+        
+        <li>
+            <a href="http://m5stack.com/" target="_blank" class="custom-link">M5stack</a>
+        </li>
+    
+    
+
+    
+    <li class="divider"></li>
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../../">
+            
+                <a href="../../">
+            
+                    
+                    UIFlow
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.1.1" data-path="Update.html">
+            
+                <a href="Update.html">
+            
+                    
+                    ファームウェア更新
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.2" data-path="Setting_WIFI.html">
+            
+                <a href="Setting_WIFI.html">
+            
+                    
+                    Wi-Fi設定
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.1.3" data-path="setting_APIkey.html">
+            
+                <a href="setting_APIkey.html">
+            
+                    
+                    API Key設定
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.4" data-path="UIFlow.html">
+            
+                <a href="UIFlow.html">
+            
+                    
+                    UIFlowレイアウト
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.5" data-path="Run_Program.html">
+            
+                <a href="Run_Program.html">
+            
+                    
+                    実行・アップロード手順
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../Start_programming/Start_programming.html">
+            
+                <a href="../Start_programming/Start_programming.html">
+            
+                    
+                    プログラミングの第一歩
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="../Start_programming/Program_structure.html">
+            
+                <a href="../Start_programming/Program_structure.html">
+            
+                    
+                    プログラムの構造
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2" data-path="../Start_programming/Button.html">
+            
+                <a href="../Start_programming/Button.html">
+            
+                    
+                    Button
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3" data-path="../Start_programming/Wait.html">
+            
+                <a href="../Start_programming/Wait.html">
+            
+                    
+                    Wait
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="../Hardwares/Hardwares.html">
+            
+                <a href="../Hardwares/Hardwares.html">
+            
+                    
+                    ハードウェア制御
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="../Hardwares/Speaker.html">
+            
+                <a href="../Hardwares/Speaker.html">
+            
+                    
+                    Speaker
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2" data-path="../Hardwares/RGB.html">
+            
+                <a href="../Hardwares/RGB.html">
+            
+                    
+                    RGB
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3" data-path="../Hardwares/IMU.html">
+            
+                <a href="../Hardwares/IMU.html">
+            
+                    
+                    IMU
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="../Display/Dispaly.html">
+            
+                <a href="../Display/Dispaly.html">
+            
+                    
+                    画像表示
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1" data-path="../Display/Emoji.html">
+            
+                <a href="../Display/Emoji.html">
+            
+                    
+                    Emoji
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2" data-path="../Display/UI.html">
+            
+                <a href="../Display/UI.html">
+            
+                    
+                    幾何学図形
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.3" data-path="../Display/image.html">
+            
+                <a href="../Display/image.html">
+            
+                    
+                    image表示
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.4" data-path="../Display/Graphic.html">
+            
+                <a href="../Display/Graphic.html">
+            
+                    
+                    Graphic図
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="../Logic/Logic.html">
+            
+                <a href="../Logic/Logic.html">
+            
+                    
+                    条件分岐と論理式
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.1" data-path="../Logic/if.html">
+            
+                <a href="../Logic/if.html">
+            
+                    
+                    if文
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.2" data-path="../Logic/logic_partA.html">
+            
+                <a href="../Logic/logic_partA.html">
+            
+                    
+                    論理式
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.3" data-path="../Logic/logic_partB.html">
+            
+                <a href="../Logic/logic_partB.html">
+            
+                    
+                    論理演算
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="../Loops/Loops.html">
+            
+                <a href="../Loops/Loops.html">
+            
+                    
+                    繰り返し処理
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.6.1" data-path="../Loops/repeatA.html">
+            
+                <a href="../Loops/repeatA.html">
+            
+                    
+                    条件付き繰り返し
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.2" data-path="../Loops/repeatB.html">
+            
+                <a href="../Loops/repeatB.html">
+            
+                    
+                    イテレータ
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" data-path="../Operation/Operation.html">
+            
+                <a href="../Operation/Operation.html">
+            
+                    
+                    データ演算
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.7.1" data-path="../Operation/Variables.html">
+            
+                <a href="../Operation/Variables.html">
+            
+                    
+                    変数
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.2" data-path="../Operation/Math.html">
+            
+                <a href="../Operation/Math.html">
+            
+                    
+                    基本演算
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.3" data-path="../Operation/Random.html">
+            
+                <a href="../Operation/Random.html">
+            
+                    
+                    乱数
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.4" data-path="../Operation/List.html">
+            
+                <a href="../Operation/List.html">
+            
+                    
+                    配列
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8" data-path="../Functions/Functions.html">
+            
+                <a href="../Functions/Functions.html">
+            
+                    
+                    関数
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9" data-path="../Remote/Remote.html">
+            
+                <a href="../Remote/Remote.html">
+            
+                    
+                    遠隔制御
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10" data-path="../Units/Units.html">
+            
+                <a href="../Units/Units.html">
+            
+                    
+                    Units
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.10.1" >
+            
+                <span>
+            
+                    
+                    入力
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.10.1.1" data-path="../Units/ENV.html">
+            
+                <a href="../Units/ENV.html">
+            
+                    
+                    ENV
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10.1.2" data-path="../Units/Light.html">
+            
+                <a href="../Units/Light.html">
+            
+                    
+                    Light
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10.1.3" data-path="../Units/PIR.html">
+            
+                <a href="../Units/PIR.html">
+            
+                    
+                    PIR
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10.1.4" data-path="../Units/Earth.html">
+            
+                <a href="../Units/Earth.html">
+            
+                    
+                    Earth
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10.2" >
+            
+                <span>
+            
+                    
+                    出力
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.10.2.1" data-path="../Units/Neopixel.html">
+            
+                <a href="../Units/Neopixel.html">
+            
+                    
+                    Neopixel
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10.2.2" data-path="../Units/Servo.html">
+            
+                <a href="../Units/Servo.html">
+            
+                    
+                    Servo
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../.." >API Key設定</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="api-key&#x8A2D;&#x5B9A;">API Key&#x8A2D;&#x5B9A;</h1>
+<hr>
+<h4 id="wi-fi&#x63A5;&#x7D9A;">Wi-Fi&#x63A5;&#x7D9A;</h4>
+<blockquote>
+<p>M5GO&#x3092;&#x8D77;&#x52D5;&#x3057;&#x305F;&#x3089;&#x3001;&#x30E1;&#x30CB;&#x30E5;&#x30FC;&#x304B;&#x3089;&#x300C;UPLOAD&#x300D;&#x3092;&#x9078;&#x629E;&#x3057;&#x3001;Wi-Fi&#x306B;&#x63A5;&#x7D9A;&#x5F8C;&#x3001;&#x753B;&#x9762;&#x53F3;&#x4E0A;&#x306E;&#x30B7;&#x30B0;&#x30CA;&#x30EB;&#x304C;&#x8D64;&#x304B;&#x3089;&#x7DD1;&#x306B;&#x5909;&#x308F;&#x308B;&#x306E;&#x3092;&#x5F85;&#x3061;&#x307E;&#x3059;&#x3002;&#xFF08;&#x3053;&#x306E;&#x56F3;&#x3067;&#x306F;M5GO&#x306F;&#x63A5;&#x7D9A;&#x6210;&#x529F;&#xFF09;&#x3001;&#x30BF;&#x30D6;&#x30EC;&#x30C3;&#x30C8;&#x3092;&#x7528;&#x3044;&#x3066;&#x4E8C;&#x6B21;&#x5143;&#x30B3;&#x30FC;&#x30C9;&#x3092;&#x30B9;&#x30AD;&#x30E3;&#x30F3;&#x3059;&#x308B;&#x304B;&#x30D6;&#x30E9;&#x30A6;&#x30B6;&#x304B;&#x3089;&#x76F4;&#x63A5;UIFlow<a href="http://flow.m5stack.com/" target="_blank">flow.m5stack.com</a>&#x306B;&#x30A2;&#x30AF;&#x30BB;&#x30B9;&#x3057;&#x307E;&#x3059;&#x3002;</p>
+<p><img src="../../image/base/APIkey_user.png"></p>
+</blockquote>
+<h4 id="api-key&#x306E;&#x767B;&#x9332;">API Key&#x306E;&#x767B;&#x9332;</h4>
+<blockquote>
+<p>UIFlow&#x306B;&#x30A2;&#x30AF;&#x30BB;&#x30B9;&#x3057;&#x3001;&#x30DA;&#x30FC;&#x30B8;&#x306E;&#x53F3;&#x4E0A;&#x306B;&#x3042;&#x308B;&#x30E1;&#x30CB;&#x30E5;&#x30FC;&#x30D0;&#x30FC;&#x304B;&#x3089;&#x8A2D;&#x5B9A;&#x3092;&#x30AF;&#x30EA;&#x30C3;&#x30AF;&#x3057;&#x307E;&#x3059;&#x3002;M5GO&#x672C;&#x4F53;&#x306B;&#x8868;&#x793A;&#x3055;&#x308C;&#x3066;&#x3044;&#x308B;API Key&#x3092;&#x767B;&#x9332;&#x3057;&#x3001;OK&#x3092;&#x30AF;&#x30EA;&#x30C3;&#x30AF;&#x3057;&#x3066;&#x4FDD;&#x5B58;&#x3057;&#x3001;&#x63A5;&#x7D9A;&#x304C;&#x6210;&#x529F;&#x3059;&#x308B;&#x307E;&#x3067;&#x3057;&#x3070;&#x3089;&#x304F;&#x5F85;&#x3061;&#x307E;&#x3059;&#x3002;</p>
+<p><img src="../../image/base/APIKey_user1.gif" alt="APIKey_user1"></p>
+</blockquote>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="Setting_WIFI.html" class="navigation navigation-prev " aria-label="Previous page: Wi-Fi設定">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="UIFlow.html" class="navigation navigation-next " aria-label="Next page: UIFlowレイアウト">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"API Key設定","level":"1.1.3","depth":2,"next":{"title":"UIFlowレイアウト","level":"1.1.4","depth":2,"path":"ja/base/UIFlow.md","ref":"ja/base/UIFlow.md","articles":[]},"previous":{"title":"Wi-Fi設定","level":"1.1.2","depth":2,"path":"ja/base/Setting_WIFI.md","ref":"ja//base/Setting_WIFI.md","articles":[]},"dir":"ltr"},"config":{"plugins":["splitter","expandable-chapters","search-pro"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"splitter":{},"search-pro":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"expandable-chapters":{}},"theme":"default","author":"M5stack","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"UIFlow Use","links":{"sidebar":{"M5stack":"http://m5stack.com/"}},"gitbook":"*"},"file":{"path":"ja/base/setting_APIkey.md","mtime":"2018-12-19T03:07:38.000Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-12-19T11:23:39.237Z"},"basePath":"../..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../../gitbook/gitbook.js"></script>
+    <script src="../../gitbook/theme.js"></script>
+    
+        
+        <script src="../../gitbook/gitbook-plugin-splitter/splitter.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-expandable-chapters/expandable-chapters.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search-pro/jquery.mark.min.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search-pro/search.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+

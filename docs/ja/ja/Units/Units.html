@@ -1,0 +1,919 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>Units · UIFlow Use</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        <meta name="author" content="M5stack">
+        
+        
+    
+    <link rel="stylesheet" href="../../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-splitter/splitter.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-expandable-chapters/expandable-chapters.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-search-pro/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    
+    <link rel="prev" href="../Remote/Remote.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+    
+        
+        <li>
+            <a href="http://m5stack.com/" target="_blank" class="custom-link">M5stack</a>
+        </li>
+    
+    
+
+    
+    <li class="divider"></li>
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../../">
+            
+                <a href="../../">
+            
+                    
+                    UIFlow
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.1.1" data-path="../base/Update.html">
+            
+                <a href="../base/Update.html">
+            
+                    
+                    ファームウェア更新
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.2" data-path="../base/Setting_WIFI.html">
+            
+                <a href="../base/Setting_WIFI.html">
+            
+                    
+                    Wi-Fi設定
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.3" data-path="../base/setting_APIkey.html">
+            
+                <a href="../base/setting_APIkey.html">
+            
+                    
+                    API Key設定
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.4" data-path="../base/UIFlow.html">
+            
+                <a href="../base/UIFlow.html">
+            
+                    
+                    UIFlowレイアウト
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.5" data-path="../base/Run_Program.html">
+            
+                <a href="../base/Run_Program.html">
+            
+                    
+                    実行・アップロード手順
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../Start_programming/Start_programming.html">
+            
+                <a href="../Start_programming/Start_programming.html">
+            
+                    
+                    プログラミングの第一歩
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="../Start_programming/Program_structure.html">
+            
+                <a href="../Start_programming/Program_structure.html">
+            
+                    
+                    プログラムの構造
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2" data-path="../Start_programming/Button.html">
+            
+                <a href="../Start_programming/Button.html">
+            
+                    
+                    Button
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3" data-path="../Start_programming/Wait.html">
+            
+                <a href="../Start_programming/Wait.html">
+            
+                    
+                    Wait
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="../Hardwares/Hardwares.html">
+            
+                <a href="../Hardwares/Hardwares.html">
+            
+                    
+                    ハードウェア制御
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="../Hardwares/Speaker.html">
+            
+                <a href="../Hardwares/Speaker.html">
+            
+                    
+                    Speaker
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2" data-path="../Hardwares/RGB.html">
+            
+                <a href="../Hardwares/RGB.html">
+            
+                    
+                    RGB
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3" data-path="../Hardwares/IMU.html">
+            
+                <a href="../Hardwares/IMU.html">
+            
+                    
+                    IMU
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="../Display/Dispaly.html">
+            
+                <a href="../Display/Dispaly.html">
+            
+                    
+                    画像表示
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1" data-path="../Display/Emoji.html">
+            
+                <a href="../Display/Emoji.html">
+            
+                    
+                    Emoji
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2" data-path="../Display/UI.html">
+            
+                <a href="../Display/UI.html">
+            
+                    
+                    幾何学図形
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.3" data-path="../Display/image.html">
+            
+                <a href="../Display/image.html">
+            
+                    
+                    image表示
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.4" data-path="../Display/Graphic.html">
+            
+                <a href="../Display/Graphic.html">
+            
+                    
+                    Graphic図
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="../Logic/Logic.html">
+            
+                <a href="../Logic/Logic.html">
+            
+                    
+                    条件分岐と論理式
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.1" data-path="../Logic/if.html">
+            
+                <a href="../Logic/if.html">
+            
+                    
+                    if文
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.2" data-path="../Logic/logic_partA.html">
+            
+                <a href="../Logic/logic_partA.html">
+            
+                    
+                    論理式
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.3" data-path="../Logic/logic_partB.html">
+            
+                <a href="../Logic/logic_partB.html">
+            
+                    
+                    論理演算
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="../Loops/Loops.html">
+            
+                <a href="../Loops/Loops.html">
+            
+                    
+                    繰り返し処理
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.6.1" data-path="../Loops/repeatA.html">
+            
+                <a href="../Loops/repeatA.html">
+            
+                    
+                    条件付き繰り返し
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.2" data-path="../Loops/repeatB.html">
+            
+                <a href="../Loops/repeatB.html">
+            
+                    
+                    イテレータ
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" data-path="../Operation/Operation.html">
+            
+                <a href="../Operation/Operation.html">
+            
+                    
+                    データ演算
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.7.1" data-path="../Operation/Variables.html">
+            
+                <a href="../Operation/Variables.html">
+            
+                    
+                    変数
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.2" data-path="../Operation/Math.html">
+            
+                <a href="../Operation/Math.html">
+            
+                    
+                    基本演算
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.3" data-path="../Operation/Random.html">
+            
+                <a href="../Operation/Random.html">
+            
+                    
+                    乱数
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.4" data-path="../Operation/List.html">
+            
+                <a href="../Operation/List.html">
+            
+                    
+                    配列
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8" data-path="../Functions/Functions.html">
+            
+                <a href="../Functions/Functions.html">
+            
+                    
+                    関数
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9" data-path="../Remote/Remote.html">
+            
+                <a href="../Remote/Remote.html">
+            
+                    
+                    遠隔制御
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.10" data-path="Units.html">
+            
+                <a href="Units.html">
+            
+                    
+                    Units
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.10.1" >
+            
+                <span>
+            
+                    
+                    入力
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.10.1.1" data-path="ENV.html">
+            
+                <a href="ENV.html">
+            
+                    
+                    ENV
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10.1.2" data-path="Light.html">
+            
+                <a href="Light.html">
+            
+                    
+                    Light
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10.1.3" data-path="PIR.html">
+            
+                <a href="PIR.html">
+            
+                    
+                    PIR
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10.1.4" data-path="Earth.html">
+            
+                <a href="Earth.html">
+            
+                    
+                    Earth
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10.2" >
+            
+                <span>
+            
+                    
+                    出力
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.10.2.1" data-path="Neopixel.html">
+            
+                <a href="Neopixel.html">
+            
+                    
+                    Neopixel
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10.2.2" data-path="Servo.html">
+            
+                <a href="Servo.html">
+            
+                    
+                    Servo
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../.." >Units</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="units">Units</h1>
+<hr>
+<h4 id="unit&#x3068;&#x306F;&#xFF1F;">Unit&#x3068;&#x306F;&#xFF1F;</h4>
+<p>Unit&#x306F;M5&#x304C;&#x63D0;&#x4F9B;&#x3059;&#x308B;&#x6A5F;&#x80FD;&#x62E1;&#x5F35;&#x30E2;&#x30B8;&#x30E5;&#x30FC;&#x30EB;&#x3067;&#x3042;&#x308A;&#x3001;Unit&#x306F;&#x3088;&#x308A;&#x8907;&#x96D1;&#x306A;&#x6A5F;&#x80FD;&#x3092;&#x63D0;&#x4F9B;&#x3059;&#x308B;&#x30CF;&#x30FC;&#x30C9;&#x30A6;&#x30A7;&#x30A2;&#x57FA;&#x76E4;&#x3067;&#x3059;&#x3002;</p>
+<blockquote>
+<p><img src="../../image/Units/Units.jpg" alt="Units"></p>
+</blockquote>
+<h4 id="unit&#x30E2;&#x30B8;&#x30E5;&#x30FC;&#x30EB;&#x3092;&#x63A5;&#x7D9A;&#x3059;&#x308B;">Unit&#x30E2;&#x30B8;&#x30E5;&#x30FC;&#x30EB;&#x3092;&#x63A5;&#x7D9A;&#x3059;&#x308B;</h4>
+<blockquote>
+<p><strong>Unit&#x3092;&#x4F7F;&#x7528;&#x3057;&#x3066;&#x30D7;&#x30ED;&#x30B0;&#x30E9;&#x30DF;&#x30F3;&#x30B0;&#x3059;&#x308B;&#x524D;&#x306B;&#x3001;Unit&#x3092;&#x5BFE;&#x5FDC;&#x3059;&#x308B;&#x30DD;&#x30FC;&#x30C8;&#x306B;&#x63A5;&#x7D9A;&#x3059;&#x308B;&#x5FC5;&#x8981;&#x304C;&#x3042;&#x308A;&#x307E;&#x3059;&#x3002;</strong></p>
+<p><img src="../../image/Units/Unit.jpg" alt="Units_cable"> </p>
+</blockquote>
+<h4 id="unit-block&#x3092;&#x8FFD;&#x52A0;&#x3059;&#x308B;">Unit Block&#x3092;&#x8FFD;&#x52A0;&#x3059;&#x308B;</h4>
+<blockquote>
+<p>UI&#x30D1;&#x30CD;&#x30EB;&#x306E;Units&#x30AA;&#x30D7;&#x30B7;&#x30E7;&#x30F3;&#x3092;&#x30AF;&#x30EA;&#x30C3;&#x30AF;&#x3057;&#x3001;&#x8FFD;&#x52A0;&#x3059;&#x308B;Unit&#x30E2;&#x30B8;&#x30E5;&#x30FC;&#x30EB;&#x3092;&#x30C1;&#x30A7;&#x30C3;&#x30AF;&#x3057;&#x3001;OK&#x3092;&#x30AF;&#x30EA;&#x30C3;&#x30AF;&#x3057;&#x307E;&#x3059;&#x3002;
+&#x6CE8;&#xFF1A;&#x305F;&#x3068;&#x3048;&#x3070;Neopixel&#x306F;&#x99C6;&#x52D5;&#x3055;&#x308C;&#x308B;&#x30E9;&#x30A4;&#x30C8;&#x306E;&#x7DCF;&#x6570;&#x3092;&#x8A2D;&#x5B9A;&#x3067;&#x304D;&#x307E;&#x3059;&#x3002;&#x8FFD;&#x52A0;&#x3055;&#x308C;&#x305F;Unit&#x30E2;&#x30B8;&#x30E5;&#x30FC;&#x30EB;&#x3092;&#x30AF;&#x30EA;&#x30C3;&#x30AF;&#x3057;&#x3066;&#x3001;&#x30D7;&#x30ED;&#x30D1;&#x30C6;&#x30A3;&#x30DC;&#x30C3;&#x30AF;&#x30B9;&#x3067;&#x7DE8;&#x96C6;&#x3059;&#x308B;&#x3053;&#x3068;&#x304C;&#x3067;&#x304D;&#x307E;&#x3059;&#x3002;</p>
+<p><img src="../../image/Units/Units_add.gif" alt="Units_add"> </p>
+</blockquote>
+<h4 id="unit-block&#x306E;&#x524A;&#x9664;">Unit Block&#x306E;&#x524A;&#x9664;</h4>
+<blockquote>
+<p>&#x8FFD;&#x52A0;&#x3055;&#x308C;&#x305F;Unit&#x30E2;&#x30B8;&#x30E5;&#x30FC;&#x30EB;&#x3092;&#x30AF;&#x30EA;&#x30C3;&#x30AF;&#x3057;&#x3001;&#x4E0A;&#x306B;&#x3042;&#x308B;&#x30B4;&#x30DF;&#x7BB1;&#x306B;&#x30C9;&#x30E9;&#x30C3;&#x30B0;&#x3057;&#x3066;&#x524A;&#x9664;&#x3057;&#x307E;&#x3059;&#x3002;</p>
+<p><img src="../../image/Units/Units_remove.gif" alt="Units_remove"> </p>
+</blockquote>
+<hr>
+<h2 id="&#x5165;&#x529B;&#x3068;&#x51FA;&#x529B;">&#x5165;&#x529B;&#x3068;&#x51FA;&#x529B;</h2>
+<p>&#x5168;&#x3066;&#x306E;Unit&#x306F;&#x5165;&#x529B;&#x578B;&#x3068;&#x51FA;&#x529B;&#x578B;&#x306E;&#xFF12;&#x7A2E;&#x985E;&#x306B;&#x308F;&#x3051;&#x3089;&#x308C;&#x307E;&#x3059;&#x3002;</p>
+<h4 id="&#x5165;&#x529B;&#x578B;">&#x5165;&#x529B;&#x578B;</h4>
+<blockquote>
+<p>&#x5165;&#x529B;&#x578B;&#x30E6;&#x30CB;&#x30C3;&#x30C8;&#x306F;&#x3001;&#x3044;&#x304F;&#x3064;&#x304B;&#x306E;&#x74B0;&#x5883;&#x60C5;&#x5831;&#x306E;&#x53CE;&#x96C6;&#x30C7;&#x30FC;&#x30BF;&#x3092;M5GO&#x306B;&#x9001;&#x4FE1;&#x3057;&#x307E;&#x3059;&#x3002;
+&#x3053;&#x308C;&#x3089;&#x306E;&#x30C7;&#x30FC;&#x30BF;&#x3092;&#x5236;&#x5FA1;&#x306B;&#x5229;&#x7528;&#x3059;&#x308B;&#x3053;&#x3068;&#x304C;&#x3067;&#x304D;&#x307E;&#x3059;&#x3002;</p>
+</blockquote>
+<h4 id="&#x51FA;&#x529B;&#x578B;">&#x51FA;&#x529B;&#x578B;</h4>
+<blockquote>
+<p>&#x51FA;&#x529B;&#x30BF;&#x30A4;&#x30D7;&#x306E;&#x30E6;&#x30CB;&#x30C3;&#x30C8;&#x306F;&#x4E3B;&#x306B;&#x30C9;&#x30E9;&#x30A4;&#x30D0;&#x30FC;&#x3067;&#x3059;&#x3002;&#x30B5;&#x30FC;&#x30DC;&#x3067;&#x306E;&#x56DE;&#x8EE2;&#x5236;&#x5FA1;&#x306A;&#x3069;&#x3001;&#x5916;&#x90E8;&#x306B;&#x63A5;&#x7D9A;&#x3055;&#x308C;&#x305F;&#x30CF;&#x30FC;&#x30C9;&#x30A6;&#x30A7;&#x30A2;&#x3092;&#x99C6;&#x52D5;&#x3059;&#x308B;&#x5236;&#x5FA1;&#x30B3;&#x30A2;&#x3068;&#x3057;&#x3066;M5GO&#x3092;&#x4F7F;&#x7528;&#x3057;&#x307E;&#x3059;&#x3002;</p>
+</blockquote>
+<h2 id="&#x30A2;&#x30CA;&#x30ED;&#x30B0;&#x3068;&#x30C7;&#x30B8;&#x30BF;&#x30EB;">&#x30A2;&#x30CA;&#x30ED;&#x30B0;&#x3068;&#x30C7;&#x30B8;&#x30BF;&#x30EB;</h2>
+<p>&#x30C7;&#x30FC;&#x30BF;&#x306E;&#x7A2E;&#x985E;&#x306F;&#x30A2;&#x30CA;&#x30ED;&#x30B0;&#x3068;&#x30C7;&#x30B8;&#x30BF;&#x30EB;&#x306E;&#xFF12;&#x7A2E;&#x985E;&#x306B;&#x308F;&#x3051;&#x3089;&#x308C;&#x307E;&#x3059;&#x3002;</p>
+<h4 id="&#x30A2;&#x30CA;&#x30ED;&#x30B0;&#x91CF;">&#x30A2;&#x30CA;&#x30ED;&#x30B0;&#x91CF;</h4>
+<blockquote>
+<p>&#x30A2;&#x30CA;&#x30ED;&#x30B0;&#x91CF;&#x306F;&#x3001;&#x6E29;&#x5EA6;&#x306A;&#x3069;&#x306E;&#x3088;&#x3046;&#x306A;&#x9023;&#x7D9A;&#x7684;&#x306A;&#x91CF;&#x306E;&#x5024;&#x3067;&#x3059;&#x3002;</p>
+<p><img src="../../image/Units/Units_analog.png" alt="Units_analog"></p>
+</blockquote>
+<h4 id="&#x30C7;&#x30B8;&#x30BF;&#x30EB;&#x91CF;">&#x30C7;&#x30B8;&#x30BF;&#x30EB;&#x91CF;</h4>
+<blockquote>
+<p>&#x30C7;&#x30B8;&#x30BF;&#x30EB;&#x91CF;&#x306B;&#x306F;&#x3001;&#x30B9;&#x30A4;&#x30C3;&#x30C1;&#x306E;&#x3088;&#x3046;&#x306B;2&#x3064;&#x306E;&#x72B6;&#x614B;0&#x3068;1&#x304C;&#x3042;&#x308A;&#x3001;&#x30B9;&#x30A4;&#x30C3;&#x30C1;&#x306E;&#x30AA;&#x30F3;&#x3068;&#x30AA;&#x30D5;&#x306E;&#x3088;&#x3046;&#x306A;&#x91CF;&#x3067;&#x3059;&#x3002;</p>
+<p><img src="../../image/Units/Units_digital.png" alt="Units_digital"></p>
+</blockquote>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="../Remote/Remote.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page: 遠隔制御">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"Units","level":"1.10","depth":1,"next":{"title":"入力","level":"1.10.1","depth":2,"ref":"","articles":[{"title":"ENV","level":"1.10.1.1","depth":3,"path":"ja/Units/ENV.md","ref":"ja/Units/ENV.md","articles":[]},{"title":"Light","level":"1.10.1.2","depth":3,"path":"ja/Units/Light.md","ref":"ja/Units/Light.md","articles":[]},{"title":"PIR","level":"1.10.1.3","depth":3,"path":"ja/Units/PIR.md","ref":"ja/Units/PIR.md","articles":[]},{"title":"Earth","level":"1.10.1.4","depth":3,"path":"ja/Units/Earth.md","ref":"ja/Units/Earth.md","articles":[]}]},"previous":{"title":"遠隔制御","level":"1.9","depth":1,"path":"ja/Remote/Remote.md","ref":"ja/Remote/Remote.md","articles":[]},"dir":"ltr"},"config":{"plugins":["splitter","expandable-chapters","search-pro"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"splitter":{},"search-pro":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"expandable-chapters":{}},"theme":"default","author":"M5stack","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"UIFlow Use","links":{"sidebar":{"M5stack":"http://m5stack.com/"}},"gitbook":"*"},"file":{"path":"ja/Units/Units.md","mtime":"2018-12-19T10:34:44.000Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-12-19T11:23:39.237Z"},"basePath":"../..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../../gitbook/gitbook.js"></script>
+    <script src="../../gitbook/theme.js"></script>
+    
+        
+        <script src="../../gitbook/gitbook-plugin-splitter/splitter.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-expandable-chapters/expandable-chapters.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search-pro/jquery.mark.min.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search-pro/search.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
