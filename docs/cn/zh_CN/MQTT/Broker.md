@@ -13,6 +13,8 @@ _________________________________
 
 * __MQTT功能__
 
->在UIFlow的高级功能中，可以找到MQTT功能块
+>在UIFlow的高级功能中，可以找到MQTT功能块，我们可以把MQTT协议简单的理解为两个环节,"发布"(Publish) 与 "订阅"(Subscribe)
+
+>当发布者发布消息后，订阅者将获取这一信息，从而实现设备之间的通讯
 
 ><img src="/image/MQTT/UIFlow_MQTT1.jpg" width="365" />  <img src="/image/MQTT/UIFlow_MQTT2.jpg" width="365"/>

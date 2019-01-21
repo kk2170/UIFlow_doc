@@ -38,6 +38,7 @@
     * [初始化程序](zh_CN/MQTT/Start.md)
     * [Publish发布](zh_CN/MQTT/Publish.md)
     * [Subscribe订阅](zh_CN/MQTT/Subscribe.md)
+    * [使用案例](zh_CN/MQTT/Example.md)
 * [Units](zh_CN/Units/Units.md)
     * Input
         * [ENV](zh_CN/Units/ENV.md)
