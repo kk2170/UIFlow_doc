@@ -3,7 +3,7 @@ ___________________
 
 #### ようこそ UIFlow へ！[flow.m5stack.com](http://flow.m5stack.com/)
 
-![UIFlow](/image/Poster/UIFlow.jpg)
+![UIFlow](/image/Poster/UIFlow.JPG)
 
 UIFlowとは：
 
