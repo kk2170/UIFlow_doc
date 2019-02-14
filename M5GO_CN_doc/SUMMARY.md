@@ -39,6 +39,9 @@
     * [Publish发布](zh_CN/MQTT/Publish.md)
     * [Subscribe订阅](zh_CN/MQTT/Subscribe.md)
     * [使用案例](zh_CN/MQTT/Example.md)
+* [Custom定制](zh_CN/Custom/Custom.md)
+    * [Block制作](zh_CN/Custom/Block_make.md)
+    * [Block使用](zh_CN/Custom/Block_user.md)
 * [Units](zh_CN/Units/Units.md)
     * Input
         * [ENV](zh_CN/Units/ENV.md)
