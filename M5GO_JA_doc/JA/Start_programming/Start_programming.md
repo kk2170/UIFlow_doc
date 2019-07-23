@@ -2,4 +2,4 @@
 ___________________________________
 __前章で学んだあなたは、UIFlowの基本的な操作を理解しました。さぁ、プログラミングを始めましょう！__
 
-<img src="/image/Poster/Hello.JPG"/>
+<img src="/image/Poster/Hello.jpg"/>

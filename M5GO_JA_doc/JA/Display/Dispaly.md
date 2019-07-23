@@ -2,4 +2,4 @@
 ______________________________________
 
 
-<img src="/image/Poster/Display.JPG"/>
+<img src="/image/Poster/Display.jpg"/>
