@@ -11,7 +11,6 @@ Unit is a function expansion module provided by the M5 system. Unit is a hardwar
 
 >__Before programming with the Unit function, you need to connect the Unit to its corresponding port.__
 
->![Units_cable](/image/Units/Unit.jpg) 
 
 #### Add Unit Block
 

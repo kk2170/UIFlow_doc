@@ -5,8 +5,6 @@ __________________________
 
 >Servo是一个舵机，我们通过程序可以控制它旋转一定的角度（0~180）
 
->![Servo](/image/Units/Servo.png)
-
 #### Block
 
 >![Servo_Block](/image/Units/Servo_Block.jpg)

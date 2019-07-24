@@ -11,8 +11,6 @@ Unit是M5体系提供的功能拓展模块，Unit是为了实现更多复杂的�
 
 >__在使用Unit功能编程前，需要将Unit连接到与其对应的端口__
 
->![Units_cable](/image/Units/Unit.jpg) 
-
 #### 添加Unit Block
 
 >点击UI模拟器下方的Units选项，勾选需要添加的Unit模块，点击确定

@@ -11,8 +11,6 @@ UnitはM5が提供する機能拡張モジュールであり、Unitはより複�
 
 >__Unitを使用してプログラミングする前に、Unitを対応するポートに接続する必要があります。__
 
->![Units_cable](/image/Units/Unit.jpg) 
-
 #### Unit Blockを追加する
 
 >UIパネルのUnitsオプションをクリックし、追加するUnitモジュールをチェックし、OKをクリックします。

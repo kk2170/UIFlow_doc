@@ -5,7 +5,7 @@ __________________________
 
 >对两个逻辑关系式进行“与，或，非”的逻辑运算
 
->![LogicB](/image/Logic/logicB.jpg)
+>![LogicB](/image/Logic/LogicB.jpg)
 
 >* __and__
 当左右两个逻辑关系式 __都成立__ 时，逻辑运算的结果才为True，否则为False

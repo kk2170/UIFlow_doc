@@ -5,7 +5,6 @@ __________________________
 
 >Servo is a steering gear, we can control it to rotate a certain angle (0~180) through the program
 
->![Servo](/image/Units/Servo.png)
 
 #### Block
 

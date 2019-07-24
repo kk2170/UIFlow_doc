@@ -9,3 +9,5 @@ What is UIFlow?：
 * A web-based programming tool
 * Use Blockly Visual Programming Language
 * Blockly seamlessly switch Python code
+
+3.2W Output Power into 4Ω at 5V

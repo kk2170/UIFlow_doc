@@ -5,7 +5,7 @@ __________________________
 
 >Or、 And、Not条件を指定できます。
 
->![LogicB](/image/Logic/logicB.jpg)
+>![LogicB](/image/Logic/LogicB.jpg)
 
 >* __and__
 左右の論理関係式が __どちらも真__ の時、結果がTrueになります。それ以外はFalseになります。

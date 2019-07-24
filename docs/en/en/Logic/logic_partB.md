@@ -5,7 +5,7 @@ __________________________
 
 >Perform logical operations on "and, or, not" for two logical relations
 
->![LogicB](/image/Logic/logicB.jpg)
+>![LogicB](/image/Logic/LogicB.jpg)
 
 >* __and__
 When the left and right logical relations __both hold__, the result of the logical operation is True, otherwise it is False.
